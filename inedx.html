@@ -22,15 +22,18 @@
   <button id="black-color">black</button>
   <button id="yellow-color">makeuellow</button>
   <button id="make-green">make green</button>
-
+  <button id="make-gold">make gold</button>
   <script>
-    const makeGreeen = document.getElementById('make-green');
-    makeGreeen.onclick = makeGreen();
-    function makeGreen() {
+
+    //getElementById.addEventListner
+    document.getElementById('make-green').addEventListener('click', function makeGreen() {
       document.body.style.backgroundColor = 'green'
-    }
-
-
+    })
+    document.getElementById('make-gold').addEventListener(
+      'click', function makeGold() {
+        document.body.style.backgroundColor = 'gold'
+      }
+    )
 
   </script>
 
