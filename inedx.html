@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document object model</title>
+</head>
+
+<body>
+  <h1>dom doma event</h1>
+  <button onclick="console.log(5)">click me</button> <br>
+  <button onclick="console.log('a man in the sky')">more</button>
+  <input type="text" placeholder="next call me">
+  <br>
+  <button onclick="makeOrange()">make orange</button>
+  <button onclick="makeBluu()">make blue</button>
+  <input onclick="clickMe()" type="text" placeholder="to change the color please push me">
+  <br>
+  <button id="btn-make-purple">purple</button>
+  <br>
+  <button id="black-color">black</button>
+  <button id="yellow-color">makeuellow</button>
+  <button id="make-green">make green</button>
+
+  <script>
+    const makeGreeen = document.getElementById('make-green');
+    makeGreeen.onclick = makeGreen();
+    function makeGreen() {
+      document.body.style.backgroundColor = 'green'
+    }
+
+
+
+  </script>
+
+
+  <script src="event.js"></script>
+</body>
+
+</html>
