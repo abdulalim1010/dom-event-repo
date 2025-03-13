@@ -13,3 +13,8 @@ function sum(aar) {
 console.log(aar)
 sum(aar);
 console.log(aar)
+console.log(10==10)
+console.log(10 === "10")
+var name = "rayanur"
+console.log(name)
+console.log(this)
